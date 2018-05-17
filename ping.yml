@@ -1,7 +1,5 @@
 ---
 - hosts: group_a
-  remote_user: root
   tasks:
     - name: test connection
       ping:
-      remote_user: root
